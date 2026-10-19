@@ -1,0 +1,174 @@
+{
+  "authoritative_repository": "https://github.com/Happy2018new/better-building-editor",
+  "block_palette_sha256": "6b2d9e961e934a745f5ab30d697cf22fb463fd3792d371a6dd42cb4342062f01",
+  "boundary": {
+    "cell_document_transactions": "remain in host",
+    "host_preview_names": 19,
+    "host_preview_records": 19,
+    "native_vanilla_names": 1321,
+    "native_vanilla_records": 15839,
+    "paired_block_rules": "pure part relations extracted; cell/chest transactions remain in host",
+    "typed_nbt_and_renderer_fields": "remain in host for this snapshot"
+  },
+  "game_version": "NEMC 3.9.0.401155",
+  "generator": {
+    "path": "tools/sync_from_bbe.py",
+    "sha256": "19ff2b745ae528836fdcf0141d4c48ff85f829fb6725ef5d190caa06e736967f",
+    "symbol_extractor_sha256": "58ec6f92dc8c7f19837f1dadf94309d0190af324ff6d7a3742ca9c026b982a8e",
+    "version": 2
+  },
+  "modules": [
+    {
+      "bytes": 3229,
+      "destination": "nemc_block_states/block_registry.py",
+      "mode": "byte-for-byte",
+      "path": "behavior_pack/modern_projection/projection/block_registry.py",
+      "sha256": "eda1d96b46ff9c3c5b2db98ba236a1ace58fed88c9abb1707c7ae2ff1ea2fb7a",
+      "source_sha256": "eda1d96b46ff9c3c5b2db98ba236a1ace58fed88c9abb1707c7ae2ff1ea2fb7a"
+    },
+    {
+      "bytes": 289192,
+      "destination": "nemc_block_states/block_registry_data.py",
+      "mode": "byte-for-byte",
+      "path": "behavior_pack/modern_projection/projection/block_registry_data.py",
+      "sha256": "ab745981bdc739d2d59b06b95e2590e140c19e831198cdb6b0f450b2a5efcdd1",
+      "source_sha256": "ab745981bdc739d2d59b06b95e2590e140c19e831198cdb6b0f450b2a5efcdd1"
+    },
+    {
+      "bytes": 15683,
+      "destination": "nemc_block_states/state_transform.py",
+      "mode": "byte-for-byte",
+      "path": "behavior_pack/modern_projection/projection/state_transform.py",
+      "sha256": "ee20291ac3a7efb30405e4769d519c55a2951291074cb1fd6cd21aa475e820c2",
+      "source_sha256": "ee20291ac3a7efb30405e4769d519c55a2951291074cb1fd6cd21aa475e820c2"
+    },
+    {
+      "bytes": 2712,
+      "destination": "nemc_block_states/block_traits.py",
+      "mode": "byte-for-byte",
+      "path": "behavior_pack/modern_projection/projection/block_traits.py",
+      "sha256": "e272de3267a6ce764672a4aa8a880650f5fe38933192b75d69aecf9e3703dc4c",
+      "source_sha256": "e272de3267a6ce764672a4aa8a880650f5fe38933192b75d69aecf9e3703dc4c"
+    },
+    {
+      "bytes": 46046,
+      "destination": "nemc_block_states/block_traits_data.py",
+      "mode": "byte-for-byte",
+      "path": "behavior_pack/modern_projection/projection/block_traits_data.py",
+      "sha256": "898f04631971ee61ec6ff0059d9735d376ca8af8bdb0eff6846477a642ed88e6",
+      "source_sha256": "898f04631971ee61ec6ff0059d9735d376ca8af8bdb0eff6846477a642ed88e6"
+    },
+    {
+      "bytes": 15448,
+      "destination": "nemc_block_states/block_groups.py",
+      "mode": "selected-symbols",
+      "path": "behavior_pack/modern_projection/projection/block_groups.py",
+      "sha256": "0275d5824e5298f0f8bf065caaffbdebf70654ea58d25784d990d0e0a935b11b",
+      "source_sha256": "25d82ed827b798cd319cab006f3df331dc3ca47a6f1b56cd15e1d30e3a70e747",
+      "symbols": [
+        "_BED_DIRECTIONS",
+        "_NON_PAIRED_UPPER_BLOCKS",
+        "_MIN_GROUP_GROWTH",
+        "from_states",
+        "_part_key",
+        "group_partner",
+        "preserve_group_part",
+        "group_is_upper"
+      ]
+    }
+  ],
+  "name_count": 1340,
+  "package_version": "0.1.0",
+  "palette": {
+    "bytes": 8547976,
+    "path": "docs/reference/block_palettes/nemc_3.9.0.401155.json",
+    "sha256": "6b2d9e961e934a745f5ab30d697cf22fb463fd3792d371a6dd42cb4342062f01"
+  },
+  "record_count": 15858,
+  "schema_version": 1,
+  "snapshot_version": 2,
+  "source_commit": "e44735c2e5269526e72e70f3ee502c072182c882",
+  "source_worktree_changes": [
+    "?? docs/reference/block_palettes/audit_nemc_3.9_to_3.10_20261017.json",
+    "?? docs/reference/block_palettes/diff_nemc_3.9_to_3.10_20261017.json",
+    "?? docs/reference/block_palettes/nemc_3.10_user_dump_20261017.json.gz"
+  ],
+  "state_key_count": 113,
+  "status": "independently importable snapshot; host is not integrated",
+  "traits_schema_version": 1,
+  "upstream_generators_and_evidence": [
+    {
+      "bytes": 4931,
+      "path": "tools/generate_block_registry.py",
+      "sha256": "f4f858e76a44b7d12d73ff3027a254897b7962e3f438c64f2bb11b56f7567593"
+    },
+    {
+      "bytes": 12707,
+      "path": "tools/generate_block_traits.py",
+      "sha256": "3e8cae4368f930df55dac1fc811e792e5e8e3e7cffedf1438afffcedae077d84"
+    },
+    {
+      "bytes": 336,
+      "path": "tools/data/block_registry_manifest.json",
+      "sha256": "c08c6bc677b0b90f68ea7d2782bd5956ed6a8fc4c0a1bad194343089ba4018fd"
+    },
+    {
+      "bytes": 52703,
+      "path": "tools/data/legacy_block_aliases.json",
+      "sha256": "a0149c5ebae44d0a9c969ec81b1ae27574a6eb5d267cd2a4be90e583b71fb955"
+    },
+    {
+      "bytes": 215310,
+      "path": "tools/data/native_block_metadata_nemc_3.9.0.401155.json",
+      "sha256": "1f7f6f2286dc7bd8dee748899ba8f12a973532d151c2047ec400c9ee8342d460"
+    },
+    {
+      "bytes": 6036,
+      "path": "tools/data/native_snow_overlays_nemc_3.9.0.401155.json",
+      "sha256": "a6e303b4d1264d112a3bc568cc16f39c2fd7f503ce4d8444215a6dcdace263f7"
+    },
+    {
+      "bytes": 224365,
+      "path": "tools/data/native_snow_states_nemc_3.9.0.401155.json",
+      "sha256": "e5bb21687e3a8692654b11411b8f0a7d1e8840c660b66f1a1def90906bd55fd0"
+    },
+    {
+      "bytes": 24059,
+      "path": "tools/data/native_paired_snow_nemc_3.9.0.401155.json",
+      "sha256": "2aa5337a376bc0d07e94997db5a761b8dec70a76e73076aac0cddd9834fa5223"
+    },
+    {
+      "bytes": 8826183,
+      "path": "tools/data/native_water_overlays_nemc_3.9.0.401155.json",
+      "sha256": "aa83618f4332d24eb358bab587630bbd893a67b30f55249e0a8c3383112b319d"
+    },
+    {
+      "bytes": 18230,
+      "path": "docs/reference/block_palettes/audit_nemc_3.9_to_3.10_20261017.json",
+      "sha256": "d9fbff7a59c790e0f1ed8d88a3019813f310cb5ec8ebe7e7d6fa17f5e422b34b"
+    },
+    {
+      "bytes": 204185,
+      "path": "docs/reference/block_palettes/diff_nemc_3.9_to_3.10_20261017.json",
+      "sha256": "5aacb39e5d9c061e23616779d430534687922c32bf864483ca79bc13202a1381"
+    },
+    {
+      "bytes": 294581,
+      "path": "docs/reference/block_palettes/nemc_3.10_user_dump_20261017.json.gz",
+      "sha256": "6284441e8fc8f8c1aea16454acb8b9ef050c84cd509e18b2aed0bff7623486f9"
+    }
+  ],
+  "vanilla_palette_equivalence": {
+    "archive_sha256": "6284441e8fc8f8c1aea16454acb8b9ef050c84cd509e18b2aed0bff7623486f9",
+    "authorizes_whole_palette_version_match": false,
+    "exact_runtime_version": null,
+    "extends_traits_or_render_qualification": false,
+    "normalized_all_fields_sha256": "d62d7154d491d848df0e79d4ddcd4722aeca55c3c71eee08adf1f267100a30c6",
+    "scope": "minecraft: records in the two archived dumps only",
+    "source_sha256": "6b12729dc5b870318a689b045c0d1cc5bd6f4b70775ca352ea4a47ed45fa4e07",
+    "vanilla_names": 1321,
+    "vanilla_records": 15839,
+    "version_label": "NEMC 3.10 (user supplied; exact patch not embedded in dump)",
+    "version_origin": "user statement; no version embedded in dump"
+  }
+}

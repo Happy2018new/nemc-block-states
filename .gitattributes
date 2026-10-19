@@ -1,0 +1,10 @@
+* text=auto eol=lf
+
+# Snapshot source hashes describe exact upstream bytes, including CRLF.
+nemc_block_states/block_registry.py -text
+nemc_block_states/block_registry_data.py -text
+nemc_block_states/state_transform.py -text
+nemc_block_states/block_traits.py -text
+nemc_block_states/block_traits_data.py -text
+nemc_block_states/block_groups.py -text
+LICENSE -text

@@ -1,0 +1,21 @@
+{
+  "block_palette_sha256": "6b2d9e961e934a745f5ab30d697cf22fb463fd3792d371a6dd42cb4342062f01",
+  "coverage": {
+    "aliases": 503,
+    "group_queries": 47574,
+    "paired_records": 722,
+    "records": 15858,
+    "trait_queries": 63432,
+    "transforms": 95148
+  },
+  "limits": [
+    "offline parity only",
+    "no editor/projection/world integration",
+    "3.9 source traits are not new 3.10 runtime qualification"
+  ],
+  "passed": true,
+  "schema_version": 1,
+  "seconds": 2.076,
+  "source_commit": "e44735c2e5269526e72e70f3ee502c072182c882",
+  "source_game_version": "NEMC 3.9.0.401155"
+}
